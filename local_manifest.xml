@@ -28,7 +28,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-20" clone-depth="1" />
   
   <!-- CarrierConfig -->
-  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" remote="googleSource" revision="master"/>
+  <!-- <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" remote="googleSource" revision="master"/> -->
   
   <!-- MtkFMRadio -->
   <!-- <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="LOS" revision="lineage-20"/> -->
