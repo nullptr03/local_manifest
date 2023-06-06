@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
-  <remote name="lineage" fetch="https://github.com/LineageOS" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS/" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
   
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="andy" revision="main" clone-depth="1" />
+  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="andy" revision="derp" clone-depth="1" />
   
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common.git" remote="andy" revision="main" clone-depth="1" />
@@ -21,13 +21,13 @@
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="andy" revision="main" clone-depth="1" />
   
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="lineage" revision="lineage-20" clone-depth="1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="andy" revision="main" clone-depth="1" />
   
   <!-- Sepolicy --> 
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="lineage" revision="lineage-20" clone-depth="1" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="andy" revision="main" clone-depth="1" />
   
   <!-- MtkFMRadio -->
-  <!-- <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/> -->
+  <!-- <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="andy" revision="lineage-20"/> -->
   
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
