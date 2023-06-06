@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
-  <remote name="lineage" fetch="https://github.com/LineageOS" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
   
@@ -21,10 +21,10 @@
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="andy" revision="main" clone-depth="1" />
   
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="lineage" revision="lineage-20" clone-depth="1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="lineageos" revision="lineage-20" clone-depth="1" />
   
   <!-- Sepolicy --> 
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="lineage" revision="lineage-20" clone-depth="1" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="lineageos" revision="lineage-20" clone-depth="1" />
   
   <!-- MtkFMRadio -->
   <!-- <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/> -->
