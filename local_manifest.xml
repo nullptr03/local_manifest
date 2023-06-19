@@ -6,7 +6,7 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
   
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="andy" revision="cipher" clone-depth="1" />
+  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="andy" revision="blaze" clone-depth="1" />
   
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common.git" remote="andy" revision="lmao" clone-depth="1" />
