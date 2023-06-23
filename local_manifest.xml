@@ -4,6 +4,9 @@
   <remote name="NadinsDXD" fetch="https://github.com/NadinsDXD" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
+
+  <!-- Remove -->
+  <project-remove name="device/mediatek/sepolicy_vndr" />
   
   <!-- Device Trees -->
   <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="andy" revision="blaze" clone-depth="1" />
