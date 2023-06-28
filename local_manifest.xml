@@ -3,13 +3,19 @@
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
-  
+
+  <!-- Device Trees Common -->
+  <project path=device/xiaomi/sm6375" name="android_device_xiaomi_sm6375-common" remote="andy" revision="lineage-20" clone-depth="1" >
+    
   <!-- Device Trees -->
   <project path="device/xiaomi/moonstone" name="android_device_xiaomi_moonstone.git" remote="andy" revision="spark" clone-depth="1" />
 
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/moonstone" name="android_device_xiaomi_moonstone-kernel.git" remote="andy" revision="lineage-20" clone-depth="1" />
-  
+
+  <!-- Vendor Trees Common -->
+  <project path=vendor/xiaomi/sm6375" name="android_vendor_xiaomi_sm6375-common" remote="andy" revision="lineage-20" clone-depth="1" >
+      
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/moonstone" name="android_vendor_xiaomi_moonstone.git" remote="andy" revision="lineage-20" clone-depth="1" />
   
