@@ -19,6 +19,9 @@
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/moonstone" name="android_vendor_xiaomi_moonstone.git" remote="andy" revision="lineage-20" clone-depth="1" />
   
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-20" />
+  
   <!-- Sepolicy --> 
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr.git" remote="LOS" revision="lineage-20.0" clone-depth="1" />
   
