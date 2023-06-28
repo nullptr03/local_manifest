@@ -4,6 +4,7 @@
   <remote name="NadinsDXD" fetch="https://github.com/NadinsDXD" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
+  <remote name="proton" fetch="https://github.com/kdrag0n" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
@@ -33,11 +34,6 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-20" clone-depth="1" />
   
   <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
-  
-  <!-- Inline kernel build -->
-  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
-  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="LOS" revision="lineage-20.0" clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.65" />
-  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LOS" revision="lineage-20.0" clone-depth="1" />
+  <!-- poject path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" /-->
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="proton" revision="master" clone-depth="1" />
 </manifest>
