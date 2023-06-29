@@ -6,9 +6,9 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
 
   <!-- Remove Project -->
-  <remove-project name="android_hardware_qcom_display" />
+  <!-- remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
-  <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
+  <remove-project name="android_vendor_qcom_opensource_display-commonsys" /-->
     
   <!-- Device Trees -->
   <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="andy" revision="cherish" clone-depth="1" />
