@@ -23,7 +23,7 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-20" />
   
   <!-- Sepolicy --> 
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr.git" remote="LOS" revision="lineage-20.0" clone-depth="1" />
+  <!-- <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr.git" remote="LOS" revision="lineage-20.0" clone-depth="1" -->
   
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
