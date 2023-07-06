@@ -14,7 +14,7 @@
   <project path="vendor/xiaomi/moonstone" name="android_vendor_xiaomi_moonstone.git" remote="andy" revision="lineage-20" clone-depth="1" />
   
   <!-- Hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-20" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="LOS" revision="lineage-20" />
   
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
