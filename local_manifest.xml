@@ -5,6 +5,9 @@
   <remote name="pekok" fetch="https://gitlab.com/pekok" />
   <remote name="clang" fetch="https://github.com/gmw-project"/>
 
+  <remove-project name="elpaablo/vendor_gapps" />
+  <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c" />
+  
   <!-- Device Trees -->
   <project path="device/xiaomi/moonstone" name="android_device_xiaomi_moonstone.git" remote="andy" revision="alpha" />
 
