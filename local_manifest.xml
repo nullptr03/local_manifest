@@ -2,7 +2,7 @@
 <manifest>
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
-	<remote name="pekok" fetch="https://gitlab.com/pekok" />
+  <remote name="pekok" fetch="https://gitlab.com/pekok" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
 
   <!-- Device Trees -->
