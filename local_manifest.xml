@@ -15,7 +15,7 @@
   <project path="vendor/xiaomi/moonstone" name="android_vendor_xiaomi_moonstone.git" remote="andy" revision="lineage-20" />
   
   <!-- Hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="LOS" revision="lineage-20" />
+  <!-- project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="LOS" revision="lineage-20" -->
 
   <!-- Firmware -->
   <project path="vendor/xiaomi/moonstone-firmware" name="vendor_xiaomi_moonstone-firmware" remote="pekok" revision="main" />
