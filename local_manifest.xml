@@ -3,11 +3,8 @@
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
   <remote name="pekok" fetch="https://gitlab.com/pekok" />
-  <remote name="clang" fetch="https://github.com/gmw-project"/>
+  <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
 
-  <remove-project name="elpaablo/vendor_gapps" />
-  <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c" />
-  
   <!-- Device Trees -->
   <project path="device/xiaomi/moonstone" name="android_device_xiaomi_moonstone.git" remote="andy" revision="alpha" />
 
@@ -24,5 +21,5 @@
   <project path="vendor/xiaomi/moonstone-firmware" name="vendor_xiaomi_moonstone-firmware" remote="pekok" revision="main" />
   
   <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784" name="android_prebuilts_clang_host_linux-x86_clang-r450784.git" remote="clang" revision="12" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
 </manifest>
