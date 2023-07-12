@@ -5,9 +5,6 @@
   <remote name="NadinsDXD" fetch="https://github.com/NadinsDXD" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
-
-  <!-- Remove -->
-  <remove-project name="device_mediatek_sepolicy_vndr" />
     
   <!-- Device Trees -->
   <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="andy" revision="blaze" />
@@ -28,7 +25,12 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Sepolicy --> 
+  <remove-project name="device_mediatek_sepolicy_vndr" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LineageOS" revision="lineage-20" />
+
+  <!--MtkFMRadio -->
+  <remove-project name="android_packages_apps_FMRadio" />
+  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" />
