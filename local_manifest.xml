@@ -8,7 +8,7 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
     
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="pe" />
+  <!--project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="pe" /-->
   
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="andy" revision="lmao-wip" />
