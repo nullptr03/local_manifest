@@ -8,7 +8,7 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
     
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="pe" />
+  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="potato" />
   
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="andy" revision="lmao-wip" />
@@ -26,7 +26,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Sepolicy --> 
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="Pixel" revision="thirteen" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" />
