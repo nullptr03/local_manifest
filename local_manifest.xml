@@ -20,7 +20,7 @@
   <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx.git" remote="dev" revision="lineage-20" />
   
   <!-- Vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="andy" revision="lineage-20" />
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="dev" revision="lineage-20" />
   
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LineageOS" revision="lineage-20" />
