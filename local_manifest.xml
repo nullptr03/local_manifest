@@ -26,6 +26,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Sepolicy --> 
+  <remove project name="device_mediatek_sepolicy" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Clang -->
