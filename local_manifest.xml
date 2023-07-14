@@ -4,11 +4,10 @@
   <remote name="LineageOS" fetch="https://github.com/LineageOS" />
   <remote name="NadinsDXD" fetch="https://github.com/NadinsDXD" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
-  <remote name="Pixel" fetch="https://github.com/PixelExperience" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
     
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="potato" />
+  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="havoc" />
   
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="andy" revision="lmao-wip" />
