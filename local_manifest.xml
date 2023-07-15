@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="hub" fetch="https://github.com" />
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
   <remote name="LineageOS" fetch="https://github.com/LineageOS" />
   <remote name="NadinsDXD" fetch="https://github.com/NadinsDXD" />
@@ -31,7 +32,8 @@
   <!--MtkFMRadio -->
   <remove-project name="android_packages_apps_FMRadio" />
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio.git" remote="LineageOS" revision="lineage-20" />
-  
+  <!-- External (sound fix) -->
+  <project path="external/tinyxml" name="ArrowOS/android_external_tinyxml" remote="hub" revision="arrow-13.1" />
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" />
 </manifest>
