@@ -8,7 +8,7 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
     
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="blaze" />
+  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="bliss" />
   
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="andy" revision="lmao-wip" />
@@ -26,14 +26,8 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Sepolicy --> 
-  <remove-project name="device_mediatek_sepolicy_vndr" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LineageOS" revision="lineage-20" />
 
-  <!--MtkFMRadio -->
-  <remove-project name="android_packages_apps_FMRadio" />
-  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio.git" remote="LineageOS" revision="lineage-20" />
-  <!-- External (sound fix) -->
-  <project path="external/tinyxml" name="ArrowOS/android_external_tinyxml" remote="hub" revision="arrow-13.1" />
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" />
 </manifest>
