@@ -7,7 +7,7 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
     
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="omni" />
+  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="octavi" />
   
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="andy" revision="lmao-wip" />
@@ -25,6 +25,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Sepolicy --> 
+  <remove-project name="android_device_mediatek_sepolicy_vndr" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Clang -->
