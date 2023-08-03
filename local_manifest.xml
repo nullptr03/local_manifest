@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="dev" fetch="https://github.com/mt6768-dev" />
+  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+  <remote name="NadinsDXD" fetch="https://github.com/NadinsDXD" />
   <remote name="andy" fetch="https://github.com/nullptr03" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
-  
+    
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="andy" revision="main" clone-depth="1" />
+  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx.git" remote="andy" revision="main" />
   
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common.git" remote="andy" revision="lmao" clone-depth="1" />
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="andy" revision="lmao-wip" />
   
   <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768.git" remote="andy" revision="main" clone-depth="1" />
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx.git" remote="andy" revision="main" clone-depth="1" />
+  <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx.git" remote="dev" revision="lineage-20" />
   
   <!-- Vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="andy" revision="main" clone-depth="1" />
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="dev" revision="lineage-20" />
   
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LOS" revision="lineage-20" clone-depth="1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Sepolicy --> 
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-20" clone-depth="1" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LineageOS" revision="lineage-20" />
   
   <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" />
 </manifest>
