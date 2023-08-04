@@ -14,7 +14,7 @@
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="andy" revision="meledak" />
   
   <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768.git" remote="andy" revision="lineage-20" />
+  <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768.git" remote="andy" revision="lineage-20" />
   
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx.git" remote="dev" revision="lineage-20" />
